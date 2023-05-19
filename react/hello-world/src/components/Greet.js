@@ -1,18 +1,31 @@
 import React from 'react'
 
-function Greet() {
+function Greet(props) {
+    console.log(props);
     return (
         <div>
-            <h1>Hello Julie</h1>
+            <h1>Hello {props.name} aka {props.nickname}</h1>
         </div>
     );
 }
- const Greet2 = () => {
+const Greet2 = ({name, nickname}) => {
     return (
       <div>
-            <h1>Hello Julie Again</h1>
-         </div>  
+             <h1>Hello {name} aka {nickname}</h1>
+          </div>  
+     );
+  };
+
+  const Greet3 = (props) => {
+    const { name, nickname } = props;
+    return (
+        <div>
+        <h1>
+        Hello {name} aka {nickname}
+        </h1>
+        </div>
     );
- };
-export {Greet, Greet2};
+  };
+export { Greet, Greet2, Greet3 };
+//export default Greet;
 
