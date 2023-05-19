@@ -6,4 +6,10 @@ class Welcome extends Component {
         return <h1>Wecome Julieee</h1>
     }
 }
-export default Welcome;
+
+class Welcome2 extends Component {
+    render(){
+        return <h1>Wecome Julieee Again</h1>
+    }
+}
+export {Welcome, Welcome2};
