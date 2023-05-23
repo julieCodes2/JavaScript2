@@ -13,8 +13,7 @@ class Welcome2 extends Component {
     render(){
         const { name, nickname } = this.props;
         return (
-        <h1
-        >Wecome {name} aka {nickname} Again</h1>
+        <h1>Welcome {name} aka {nickname} Again</h1>
         );
     }
 }

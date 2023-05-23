@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 //import Greet from "./components/Greet";
-import { Greet, Greet2 } from "./components/Greet";
+import { Greet, Greet2, Greet3 } from "./components/Greet";
 import { Welcome, Welcome2 } from "./components/welcome";
+import Message from "./components/Message";
 
 function App() {
   return (
