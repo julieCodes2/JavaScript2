@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Component } from "react";
 
 class Message extends Component {
@@ -9,7 +9,7 @@ class Message extends Component {
         };
         }
         changeMessage(){
-            this.setState({Message: "Thank you for Subscribing"})
+            this.setState({message: "Thank you for Subscribing"})
         }
         render() {
             return (
