@@ -12,6 +12,7 @@ import UserGreeting from "./components/UserGreeting";
 import ParentComponent from "./components/ParentComponent";
 import NameList from './components/NameList';
 import PersonList from './components/PersonList';
+import FragmentDemo from './components/FragmentDemo';
 // import ChildComponent from './components/ChildComponent';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <ParentComponent/>
       <NameList/>
       <PersonList/>
+      <FragmentDemo/>
       
     </div>
    
