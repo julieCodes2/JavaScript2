@@ -10,6 +10,7 @@ import FunctionClick from './components/FunctionClick';
 import Eventbind from "./components/Eventbind";
 import UserGreeting from "./components/UserGreeting";
 import ParentComponent from "./components/ParentComponent";
+import NameList from './components/NameList';
 // import ChildComponent from './components/ChildComponent';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Eventbind/>
       <UserGreeting/>
       <ParentComponent/>
+      <NameList/>
       
     </div>
    
