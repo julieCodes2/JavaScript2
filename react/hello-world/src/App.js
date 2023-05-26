@@ -11,6 +11,7 @@ import Eventbind from "./components/Eventbind";
 import UserGreeting from "./components/UserGreeting";
 import ParentComponent from "./components/ParentComponent";
 import NameList from './components/NameList';
+import PersonList from './components/PersonList';
 // import ChildComponent from './components/ChildComponent';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <UserGreeting/>
       <ParentComponent/>
       <NameList/>
+      <PersonList/>
       
     </div>
    
